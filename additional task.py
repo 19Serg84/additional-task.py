@@ -2,9 +2,9 @@ grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5
 students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 #print(type(grades))
 #print(type(students))
-#students_sorted = (sorted(students))
+students = sorted(students)
 #print(sum(grades[0])/len(grades[0]))
-#print(students_sorted)
+print(students)
 average_grades_Aaron = (sum(grades[0])/len(grades[0]))
 average_grades_Bilbo = (sum(grades[1])/len(grades[1]))
 average_grades_Johnny = (sum(grades[2])/len(grades[2]))
